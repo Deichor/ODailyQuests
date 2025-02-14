@@ -3,7 +3,7 @@ package com.ordwen.odailyquests.commands.admin.convert;
 import com.ordwen.odailyquests.quests.player.PlayerQuests;
 import com.ordwen.odailyquests.quests.player.progression.Progression;
 import com.ordwen.odailyquests.quests.player.progression.QuestLoaderUtils;
-import com.ordwen.odailyquests.quests.player.progression.storage.sql.SQLManager;
+import com.ordwen.odailyquests.database.SQLManager;
 import com.ordwen.odailyquests.quests.types.AbstractQuest;
 import com.ordwen.odailyquests.tools.PluginLogger;
 import org.bukkit.configuration.ConfigurationSection;

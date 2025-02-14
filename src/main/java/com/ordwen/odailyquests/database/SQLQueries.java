@@ -1,4 +1,4 @@
-package com.ordwen.odailyquests.quests.player.progression.storage.sql;
+package com.ordwen.odailyquests.database;
 
 import com.ordwen.odailyquests.configuration.ConfigurationHolder;
 

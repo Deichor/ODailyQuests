@@ -1,4 +1,4 @@
-package com.ordwen.odailyquests.quests.player.progression.storage.yaml;
+package com.ordwen.odailyquests.database.yaml;
 
 public class YamlManager {
 

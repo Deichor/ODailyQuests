@@ -1,16 +1,14 @@
-package com.ordwen.odailyquests.quests.player.progression.storage.sql.h2;
+package com.ordwen.odailyquests.database.h2;
 
 import com.ordwen.odailyquests.ODailyQuests;
-import com.ordwen.odailyquests.quests.player.progression.storage.sql.LoadProgressionSQL;
-import com.ordwen.odailyquests.quests.player.progression.storage.sql.SQLManager;
-import com.ordwen.odailyquests.quests.player.progression.storage.sql.SaveProgressionSQL;
+import com.ordwen.odailyquests.database.LoadProgressionSQL;
+import com.ordwen.odailyquests.database.SQLManager;
+import com.ordwen.odailyquests.database.SaveProgressionSQL;
 import com.ordwen.odailyquests.tools.PluginLogger;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
 import java.sql.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class H2Manager extends SQLManager {
 

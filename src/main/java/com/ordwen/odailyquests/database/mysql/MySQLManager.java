@@ -1,10 +1,10 @@
-package com.ordwen.odailyquests.quests.player.progression.storage.sql.mysql;
+package com.ordwen.odailyquests.database.mysql;
 
 import com.ordwen.odailyquests.ODailyQuests;
 import com.ordwen.odailyquests.files.ConfigurationFiles;
-import com.ordwen.odailyquests.quests.player.progression.storage.sql.LoadProgressionSQL;
-import com.ordwen.odailyquests.quests.player.progression.storage.sql.SQLManager;
-import com.ordwen.odailyquests.quests.player.progression.storage.sql.SaveProgressionSQL;
+import com.ordwen.odailyquests.database.LoadProgressionSQL;
+import com.ordwen.odailyquests.database.SQLManager;
+import com.ordwen.odailyquests.database.SaveProgressionSQL;
 import com.ordwen.odailyquests.tools.PluginLogger;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;

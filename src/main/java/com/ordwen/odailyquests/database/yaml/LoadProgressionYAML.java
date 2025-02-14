@@ -1,4 +1,4 @@
-package com.ordwen.odailyquests.quests.player.progression.storage.yaml;
+package com.ordwen.odailyquests.database.yaml;
 
 import com.ordwen.odailyquests.ODailyQuests;
 import com.ordwen.odailyquests.configuration.essentials.Debugger;

@@ -2,8 +2,8 @@ package com.ordwen.odailyquests.commands.admin.convert;
 
 import com.ordwen.odailyquests.ODailyQuests;
 import com.ordwen.odailyquests.files.ProgressionFile;
-import com.ordwen.odailyquests.quests.player.progression.storage.sql.SQLManager;
-import com.ordwen.odailyquests.quests.player.progression.storage.sql.h2.H2Manager;
+import com.ordwen.odailyquests.database.SQLManager;
+import com.ordwen.odailyquests.database.h2.H2Manager;
 import com.ordwen.odailyquests.tools.PluginLogger;
 import org.bukkit.configuration.file.FileConfiguration;
 
